@@ -1,0 +1,29 @@
+.health-status-cards {
+  display: flex;
+  gap: 16px;
+  margin: 20px;
+}
+
+.status-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.healthy {
+  color: green;
+}
+
+.status.needs-attention {
+  color: red;
+}
+
+.status.fractured {
+  color: orange;
+}

@@ -1,0 +1,22 @@
+.anatomy-section {
+  position: relative;
+  margin: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: auto;
+}
+
+.indicator {
+  position: absolute;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
